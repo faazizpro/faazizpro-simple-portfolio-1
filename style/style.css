@@ -213,7 +213,7 @@ What I Do Section Starts
 
 .box h3{
     margin-bottom: 20px;
-    color: var(--Dark-01, #181818);
+    color: #181818;
     font-family: Open Sans;
     font-size: 18px;
     font-style: normal;
@@ -233,3 +233,4 @@ What I Do Section Starts
 What I Do Section Ends
 -----------------------
 */
+
