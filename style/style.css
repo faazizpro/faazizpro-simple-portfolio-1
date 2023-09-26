@@ -16,6 +16,7 @@ body{
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -59,12 +60,15 @@ nav li a{
 /* Header Styles */
 header{
     background-color: #FFF8F3;
-    height: 840px;
+    height: 688px;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 30px 200px;
     display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-top: 60px;
 }
 
 .banner-greeting{
@@ -73,4 +77,22 @@ header{
     font-weight: 600;
 }
 
-.
+.banner-title{
+    color: #181818;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner p{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 585px;
+    margin-bottom: 30px;
+}
+
+.profile-pic{
+    width: 800px;
+}
