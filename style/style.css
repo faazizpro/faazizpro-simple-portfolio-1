@@ -1,5 +1,8 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+*{
+    margin: 0;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,11 +18,14 @@ body{
     font-weight: 700;
 }
 
+
+
 /* Navbar Section Start */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav h3{
@@ -49,3 +55,22 @@ nav li a{
     font-weight: 400;
 }
 /* Navbar Section End */
+
+/* Header Styles */
+header{
+    background-color: #FFF8F3;
+    height: 840px;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.
