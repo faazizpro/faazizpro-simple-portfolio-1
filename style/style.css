@@ -19,7 +19,9 @@ body{
     cursor: pointer;
 }
 
-
+.cvb{
+    margin-right: 20px;
+}
 
 /* Navbar Section Start */
 nav{
@@ -296,5 +298,55 @@ Resume Section Ends
 /* 
 -----------------------
 Resume Section Ends
+-----------------------
+*/
+
+/* 
+-----------------------
+Footer Section Starts
+-----------------------
+*/
+footer{
+    background: #FFF8F3;
+}
+
+.footer{
+    width: 1140px;
+    margin: 100px auto;
+    padding: 130px 0;
+}
+
+.footer-info h3{
+    color:  #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-info p{
+    width: 562px;
+    margin: 25px 0;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+.icons img{
+    margin-right: 24px;
+    margin-left: 0;
+}
+
+.footer-form h3{
+    color:  #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* 
+-----------------------
+Footer Section Ends
 -----------------------
 */
