@@ -157,3 +157,79 @@ About Me Section Starts
 About Me Section Ends
 ---------------------
 */
+
+/* 
+------------------------
+What I Do Section Starts
+------------------------
+*/
+
+.expertize{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.expert-title{
+    text-align: center;
+}
+
+.expert-title h2{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.expert-title p{
+    width: 909px;
+    margin: 0 auto;
+    color:#757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 50px;
+}
+
+.expert-boxs{
+    display: flex;
+    /* gap: 24px; */
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box{
+    width: 167px;
+    padding: 30px 33px;
+    margin-right: 20px;
+
+}
+
+.box img{
+    margin-bottom: 30px;
+}
+
+.box h3{
+    margin-bottom: 20px;
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box p{
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+/* 
+-----------------------
+What I Do Section Ends
+-----------------------
+*/
